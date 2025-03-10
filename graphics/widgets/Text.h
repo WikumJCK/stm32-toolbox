@@ -10,11 +10,12 @@
 #ifndef LIB_STM32_TOOLBOX_GRAPHICS_TEXT_H_
 #define LIB_STM32_TOOLBOX_GRAPHICS_TEXT_H_
 
+#include <graphics/widgets/IWidget.h>
 #include <stdint.h>
 #include <string.h>
 #include <stdarg.h>
-#include "IWidget.h"
-#include "utility/PrintLite.h"
+#include <utility/PrintLite.h>
+
 #include "graphics/Font6x8.h"
 
 enum Alignment { Left, Centre, Right };

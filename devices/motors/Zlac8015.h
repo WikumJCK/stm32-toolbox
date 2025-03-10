@@ -7,7 +7,7 @@
 #ifndef INC_COMMS_ZLAC8015_H_
 #define INC_COMMS_ZLAC8015_H_
 
-#include "stm32-toolbox/comms/CanOpen.h"
+#include <comms/CanOpen.h>
 
 class Zlac8015 : public CanOpen::ICanOpenCallback
 {

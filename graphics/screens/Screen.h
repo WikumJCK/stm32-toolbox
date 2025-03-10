@@ -10,7 +10,8 @@
 #ifndef SCREEN_H
 #define SCREEN_H
 
-#include "utility/Timer.h"
+#include <utility/Timer.h>
+
 #include "devices/Lcd.h"
 #include "devices/Encoder.h"
 #include "globals.hpp"

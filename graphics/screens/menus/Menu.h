@@ -4,9 +4,9 @@
  * \brief      Encapsulate a simple menu, which is a list of menu items.
  */
 
+#include <generics/List.h>
+#include <graphics/screens/menus/MenuItem.h>
 #include <string.h>
-#include "generics/List.h"
-#include "screens/menus/MenuItem.h"
 
 
 #ifndef INC_SCREENS_MENU_H_

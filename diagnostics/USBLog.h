@@ -10,7 +10,7 @@
 #define USBLOG_H
 
 
-#include "comms/USBSerial.h"
+#include <comms/USBSerial.h>
 #include "toolbox.h"
 
 #define DEC 10

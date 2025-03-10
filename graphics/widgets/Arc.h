@@ -10,10 +10,10 @@
 #ifndef LIB_STM32_TOOLBOX_GRAPHICS_ARC_H_
 #define LIB_STM32_TOOLBOX_GRAPHICS_ARC_H_
 
+#include <graphics/widgets/IFill.h>
+#include <graphics/widgets/IOutline.h>
+#include <graphics/widgets/IWidget.h>
 #include <stdint.h>
-#include "IWidget.h"
-#include "IOutline.h"
-#include "IFill.h"
 #include "math.h"
 
 

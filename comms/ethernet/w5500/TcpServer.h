@@ -1,9 +1,9 @@
 #ifndef ETHERNETSERVER_H
 #define ETHERNETSERVER_H
 
-#include "Socket.h"
-#include "Ethernet.h"
-#include "TcpClient.h"
+#include <comms/ethernet/w5500/Ethernet.h>
+#include <comms/ethernet/w5500/Socket.h>
+#include <comms/ethernet/w5500/TcpClient.h>
 
 class TcpServer : public TcpClient
 {

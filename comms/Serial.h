@@ -9,10 +9,10 @@
 #ifndef INC_COMMS_SERIAL_HPP_
 #define INC_COMMS_SERIAL_HPP_
 
-#include "utility/PrintLite.h"
+#include <generics/Queue.h>
+#include <utility/IWrite.h>
+#include <utility/PrintLite.h>
 #include "toolbox.h"
-#include "generics/Queue.h"
-#include "utility/IWrite.h"
 
 
 /**

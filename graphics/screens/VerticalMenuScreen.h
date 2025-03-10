@@ -10,11 +10,11 @@
 #ifndef VERTICALMENUSCREEN_H
 #define VERTICALMENUSCREEN_H
 
+#include <graphics/screens/menus/Menu.h>
+#include <graphics/screens/menus/ScreenMenuItem.h>
+#include <graphics/screens/menus/ValueMenuItem.h>
+#include <graphics/screens/Screen.h>
 #include <math.h>
-#include "screens/menus/Menu.h"
-#include "screens/menus/ScreenMenuItem.h"
-#include "screens/menus/ValueMenuItem.h"
-#include "screens/Screen.h"
 #include "constants.h"
 
 

@@ -9,9 +9,9 @@
 #ifndef INC_STM32_TOOLBOX_COMMS_ETHERNET_PING_H_
 #define INC_STM32_TOOLBOX_COMMS_ETHERNET_PING_H_
 
+#include <comms/ethernet/w5500/Socket.h>
 #include <stdint.h>
-#include "utility/Timer.h"
-#include "comms/ethernet/w5500/Socket.h"
+#include <utility/Timer.h>
 
 
 class Ping

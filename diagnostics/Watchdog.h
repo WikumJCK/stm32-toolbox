@@ -10,7 +10,7 @@
 #ifndef INC_UTILITY_WATCHDOG_H_
 #define INC_UTILITY_WATCHDOG_H_
 
-#include "diagnostics/Fault.h"
+#include <diagnostics/Fault.h>
 
 /// <summary>
 /// Implements independent hardware watchdog (IHWD) abstraction.

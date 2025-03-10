@@ -1,11 +1,11 @@
 #ifndef INC_COMMS_USBCDCSERIAL_HPP_
 #define INC_COMMS_USBCDCSERIAL_HPP_
 
+#include <generics/Queue.h>
+#include <utility/IWrite.h>
+#include <utility/PrintLite.h>
 #include "usbd_cdc_if.h" // Include USB CDC interface
-#include "utility/PrintLite.h"
 #include "toolbox.h"
-#include "generics/Queue.h"
-#include "utility/IWrite.h"
 
 class USBSerial : public PrintLite
 {

@@ -11,8 +11,8 @@
 #define	W5500_H_INCLUDED
 
 #include <stdint.h>
+#include <utility/Timer.h>
 #include "toolbox.h"
-#include "utility/Timer.h"
 
 
 /** Total RAM buffer is 16 kBytes for Transmitter and 16 kBytes for receiver for 1 Socket.

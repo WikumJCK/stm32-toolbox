@@ -10,10 +10,10 @@
 #ifndef INC_STM32_TOOLBOX_DEVICES_FLASH_SECTORFLASHFILESYSTEM_H_
 #define INC_STM32_TOOLBOX_DEVICES_FLASH_SECTORFLASHFILESYSTEM_H_
 
+#include <devices/flash/internal/Directory.h>
+#include <devices/flash/internal/FlashFileSystem.h>
+#include <devices/flash/internal/SectorCollection.h>
 #include <toolbox.h>
-#include "FlashFileSystem.h"
-#include "SectorCollection.h"
-#include "Directory.h"
 
 
 /**

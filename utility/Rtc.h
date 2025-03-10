@@ -7,7 +7,7 @@
 /// @copyright  See https://github.com/TwoRedCells/stm32-toolbox/blob/main/LICENSE
 
 
-#include "utility/DateTime.h"
+#include <utility/DateTime.h>
 
 #ifndef INC_STM32_TOOLBOX_DEVICES_RTC_H_
 #define INC_STM32_TOOLBOX_DEVICES_RTC_H_

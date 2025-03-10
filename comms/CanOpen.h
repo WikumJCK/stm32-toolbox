@@ -8,10 +8,10 @@
 #ifndef INC_COMMS_CANOPEN_H_
 #define INC_COMMS_CANOPEN_H_
 
-#include "CanBus.h"
-#include "utility/FastDelegate.h"
+#include <comms/CanBus.h>
+#include <utility/Conversion.h>
+#include <utility/FastDelegate.h>
 #include "toolbox.h"
-#include "utility/Conversion.h"
 
 
 class CanOpen : public CanBus

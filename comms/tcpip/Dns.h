@@ -5,10 +5,10 @@
 #ifndef DNSCLIENT_H
 #define DNSCLIENT_H
 
-#include "comms/ethernet/w5500/Udp.h"
-#include "IPv4Address.h"
-#include "utility/Timer.h"
-#include "util.h"
+#include <comms/ethernet/w5500/Udp.h>
+#include <comms/tcpip/IPv4Address.h>
+#include <comms/tcpip/util.h>
+#include <utility/Timer.h>
 
 #define SOCKET_NONE	255
 // Various flags and header field values for a DNS message

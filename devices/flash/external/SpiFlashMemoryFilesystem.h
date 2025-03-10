@@ -10,10 +10,10 @@
 #ifndef INC_STM32_TOOLBOX_DEVICES_FLASH_SPIFLASHMEMORYFILESYSTEM_H_
 #define INC_STM32_TOOLBOX_DEVICES_FLASH_SPIFLASHMEMORYFILESYSTEM_H_
 
+#include <devices/flash/external/SpiFlashMemory.h>
 #include <math.h>
 #include <string.h>
 #include "tinycrypt/tiny_md5.h"
-#include "SpiFlashMemory.h"
 
 
 /**

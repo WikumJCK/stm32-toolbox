@@ -8,8 +8,8 @@
 #define INC_DEVICES_TMP112_H_
 
 
+#include <diagnostics/Log.h>
 #include "toolbox.h"
-#include "diagnostics/Log.h"
 #include "i2c.h"
 
 

@@ -38,9 +38,9 @@
 #define ETHERNETUDP_H
 
 
+#include <comms/ethernet/w5500/Socket.h>
 #include <comms/tcpip/IPv4Address.h>
-#include "Socket.h"
-#include "comms/tcpip/IUdp.h"
+#include <comms/tcpip/IUdp.h>
 
 #ifndef word
 #define word(a, b) ( (uint16_t)((a)<<8) | (b) )

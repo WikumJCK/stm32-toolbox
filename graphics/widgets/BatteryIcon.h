@@ -11,9 +11,9 @@
 #ifndef RAD_WIDGETS_BATTERYICON_H_
 #define RAD_WIDGETS_BATTERYICON_H_
 
-#include "graphics/widgets/Container.h"
-#include "graphics/widgets/Line.h"
-#include "graphics/widgets/Pixel.h"
+#include <graphics/widgets/Container.h>
+#include <graphics/widgets/Line.h>
+#include <graphics/widgets/Pixel.h>
 
 
 template <class TColour>

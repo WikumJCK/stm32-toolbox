@@ -24,8 +24,8 @@
 
 #include <stdint.h>
 #include <string.h>
-#include "utility/Timer.h"
-#include "utility/PrintLite.h"
+#include <utility/PrintLite.h>
+#include <utility/Timer.h>
 
 
 #define PARSE_TIMEOUT 1000  // default number of milli-seconds to wait

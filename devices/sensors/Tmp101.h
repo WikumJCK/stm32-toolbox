@@ -8,9 +8,10 @@
 #define INC_DEVICES_TMP101_H_
 
 
+#include <diagnostics/Log.h>
+
 #include "globals.hpp"
 #include "constants.h"
-#include "diagnostics/Log.h"
 #include "comms/I2C.h"
 
 class Tmp101 : public i2c

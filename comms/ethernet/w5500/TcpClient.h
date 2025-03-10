@@ -2,9 +2,9 @@
 #define TCPCLIENT_H
 
 
-#include "Socket.h"
-#include "utility/IWrite.h"
+#include <comms/ethernet/w5500/Socket.h>
 #include <string.h>
+#include <utility/IWrite.h>
 #include "toolbox.h"
 
 

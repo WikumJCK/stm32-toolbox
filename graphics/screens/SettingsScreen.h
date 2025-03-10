@@ -10,8 +10,9 @@
 #ifndef INC_SETTINGSSCREEN_H
 #define INC_SETTINGSSCREEN_H
 
-#include "screens/VerticalMenuScreen.h"
-#include "screens/menus/ValueMenuItem.h"
+#include <graphics/screens/menus/ValueMenuItem.h>
+#include <graphics/screens/VerticalMenuScreen.h>
+
 #include "globals.hpp"
 
 /**

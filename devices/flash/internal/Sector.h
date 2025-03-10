@@ -11,7 +11,7 @@
 #ifndef INC_STM32_TOOLBOX_DEVICES_FLASH_SECTOR_H_
 #define INC_STM32_TOOLBOX_DEVICES_FLASH_SECTOR_H_
 
-#include "FlashMemory.h"
+#include <devices/flash/internal/FlashMemory.h>
 
 
 /**

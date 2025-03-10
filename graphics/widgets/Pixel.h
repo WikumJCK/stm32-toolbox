@@ -11,9 +11,9 @@
 #define LIB_STM32_TOOLBOX_GRAPHICS_PIXEL_H_
 
 #include <graphics/widgets/Container.h>
+#include <graphics/widgets/IMonochrome.h>
+#include <graphics/widgets/IWidget.h>
 #include <stdint.h>
-#include "IWidget.h"
-#include "IMonochrome.h"
 
 template <class TColour>
 class Pixel : public IWidget<TColour>, public IMonochrome<TColour>

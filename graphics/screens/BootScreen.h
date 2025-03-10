@@ -10,7 +10,8 @@
 #ifndef FAULTSCREEN_H
 #define FAULTSCREEN_H
 
-#include "screens/Screen.h"
+#include <graphics/screens/Screen.h>
+
 #include "constants.h"
 
 

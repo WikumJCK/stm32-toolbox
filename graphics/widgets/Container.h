@@ -10,9 +10,9 @@
 #ifndef LIB_STM32_TOOLBOX_GRAPHICS_CANVAS_H_
 #define LIB_STM32_TOOLBOX_GRAPHICS_CANVAS_H_
 
-#include "ICanvas.h"
+#include <graphics/widgets/ICanvas.h>
+#include <graphics/widgets/IWidget.h>
 #include <stdint.h>
-#include "IWidget.h"
 
 
 template <class TColour>

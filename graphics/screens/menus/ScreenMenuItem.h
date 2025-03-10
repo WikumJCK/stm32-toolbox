@@ -7,8 +7,8 @@
 #ifndef INC_SCREENS_SCREENMENUITEM_H_
 #define INC_SCREENS_SCREENMENUITEM_H_
 
-#include "screens/menus/MenuItem.h"
-#include "screens/Screen.h"
+#include <graphics/screens/menus/MenuItem.h>
+#include <graphics/screens/Screen.h>
 
 
 class ScreenMenuItem : public MenuItem

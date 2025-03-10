@@ -10,8 +10,8 @@
 #ifndef LIB_STM32_TOOLBOX_GRAPHICS_IWIDGET_H_
 #define LIB_STM32_TOOLBOX_GRAPHICS_IWIDGET_H_
 
+#include <graphics/widgets/IPaintable.h>
 #include <stdint.h>
-#include "IPaintable.h"
 
 
 template <class TColour>

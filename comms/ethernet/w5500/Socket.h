@@ -1,11 +1,11 @@
 #ifndef	_SOCKET_H_
 #define	_SOCKET_H_
 
+#include <comms/ethernet/w5500/Ethernet.h>
+#include <comms/ethernet/w5500/TcpIp.h>
 #include <comms/tcpip/IPv4Address.h>
-#include "Ethernet.h"
-#include "TcpIp.h"
-#include "utility/Timer.h"
 #include <memory.h>
+#include <utility/Timer.h>
 
 #ifndef word
 #define word(a, b) ( (uint16_t)((a)<<8) | (b) )

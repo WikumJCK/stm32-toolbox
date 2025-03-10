@@ -10,13 +10,13 @@
 #ifndef LIB_STM32_TOOLBOX_GRAPHICS_INDICATOR_H_
 #define LIB_STM32_TOOLBOX_GRAPHICS_INDICATOR_H_
 
+#include <graphics/widgets/FilledRectangle.h>
+#include <graphics/widgets/IFill.h>
+#include <graphics/widgets/IOutline.h>
+#include <graphics/widgets/IWidget.h>
+#include <graphics/widgets/Line.h>
 #include <stdint.h>
-#include "IWidget.h"
-#include "IOutline.h"
-#include "IFill.h"
-#include "Line.h"
 #include "math.h"
-#include "FilledRectangle.h"
 
 
 template <class TColour>

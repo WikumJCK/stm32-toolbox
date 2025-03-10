@@ -6,7 +6,7 @@
 #ifndef _VL53L1_PLATFORM_H_
 #define _VL53L1_PLATFORM_H_
 
-#include "vl53l1_types.h"
+#include <devices/sensors/vl53l1_types.h>
 
 #ifdef __cplusplus
 extern "C"

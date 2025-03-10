@@ -10,12 +10,12 @@
 #ifndef INC_STM32_TOOLBOX_DEVICES_OLEDSSD1306_H_
 #define INC_STM32_TOOLBOX_DEVICES_OLEDSSD1306_H_
 
-#include "utility/PrintLite.h"
+#include <utility/PrintLite.h>
 #if OLED_SSD1306_ENABLE_TEXT
 #ifndef PROGMEM
 #define PROGMEM
 #endif
-#include "graphics/GFXFont.h"
+#include <graphics/gfxfont.h>
 #endif
 #include "i2c.h"
 #include <stdint.h>

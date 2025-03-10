@@ -10,7 +10,7 @@
 #ifndef RING_H
 #define RING_H
 
-#include "ICollection.h"
+#include <generics/ICollection.h>
 
 /**
  * A circular buffer

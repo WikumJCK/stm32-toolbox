@@ -10,11 +10,11 @@
 #ifndef LIB_STM32_TOOLBOX_GRAPHICS_LOADING1_H_
 #define LIB_STM32_TOOLBOX_GRAPHICS_LOADING1_H_
 
+#include <generics/List.h>
 #include <graphics/widgets/Container.h>
+#include <graphics/widgets/FilledRectangle.h>
+#include <graphics/widgets/IAnimation.h>
 #include <stdint.h>
-#include "IAnimation.h"
-#include "generics/List.h"
-#include "FilledRectangle.h"
 
 template <class TColour>
 class Loading1 : public Container<TColour>, public IOutline<TColour>, public IAnimation

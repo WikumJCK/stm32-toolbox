@@ -11,9 +11,9 @@
 #ifndef LIB_STM32_TOOLBOX_COMMS_ETHERNET_NTPCLIENT_H_
 #define LIB_STM32_TOOLBOX_COMMS_ETHERNET_NTPCLIENT_H_
 
+#include <comms/ethernet/w5500/Udp.h>
+#include <comms/tcpip/IPv4Address.h>
 #include <stdint.h>
-#include "comms/ethernet/w5500/Udp.h"
-#include "comms/tcpip/IPv4Address.h"
 
 class NtpClient
 {

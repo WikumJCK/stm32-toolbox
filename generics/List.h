@@ -10,7 +10,7 @@
 #ifndef GENERIC_LIST_H
 #define GENERIC_LIST_H
 
-#include "ICollection.h"
+#include <generics/ICollection.h>
 
 /**
  * A list.

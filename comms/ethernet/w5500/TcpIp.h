@@ -8,8 +8,8 @@
 #ifndef LIB_STM32_TOOLBOX_COMMS_ETHERNET_W5500_TCPIP_H_
 #define LIB_STM32_TOOLBOX_COMMS_ETHERNET_W5500_TCPIP_H_
 
+#include <comms/ethernet/w5500/Ethernet.h>
 #include <comms/tcpip/IPv4Address.h>
-#include "Ethernet.h"
 
 
 class TcpIp

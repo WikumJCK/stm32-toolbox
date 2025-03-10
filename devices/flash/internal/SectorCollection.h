@@ -10,7 +10,7 @@
 #ifndef INC_STM32_TOOLBOX_DEVICES_FLASH_SECTORCOLLECTION_H_
 #define INC_STM32_TOOLBOX_DEVICES_FLASH_SECTORCOLLECTION_H_
 
-#include "Sector.h"
+#include <devices/flash/internal/Sector.h>
 
 
 /**

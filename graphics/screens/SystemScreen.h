@@ -10,7 +10,7 @@
 #ifndef INFOSCREEN_H
 #define INFOSCREEN_H
 
-#include "screens/Screen.h"
+#include <graphics/screens/Screen.h>
 
 /**
  * A screen with general information such as the version and uptime.

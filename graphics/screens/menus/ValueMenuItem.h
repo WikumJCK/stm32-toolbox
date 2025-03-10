@@ -7,7 +7,7 @@
 #ifndef INC_SCREENS_VALUEMENUITEM_H_
 #define INC_SCREENS_VALUEMENUITEM_H_
 
-#include "screens/menus/MenuItem.h"
+#include <graphics/screens/menus/MenuItem.h>
 
 class ValueMenuItem : public MenuItem
 {

@@ -12,7 +12,7 @@
 #define INC_OUTPUTS_FAN_H_
 
 #include <math.h>
-#include "utility/Timer.h"
+#include <utility/Timer.h>
 
 
 class Fan

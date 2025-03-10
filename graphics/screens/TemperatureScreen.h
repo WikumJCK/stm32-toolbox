@@ -10,7 +10,8 @@
 #ifndef TEMPERATURESCREEN_H
 #define TEMPERATURESCREEN_H
 
-#include "screens/Screen.h"
+#include <graphics/screens/Screen.h>
+
 #include "globals.hpp"
 
 

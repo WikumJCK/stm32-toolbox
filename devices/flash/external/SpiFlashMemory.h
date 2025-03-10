@@ -11,9 +11,9 @@
 #define INC_STM32_TOOLBOX_DEVICES_FLASH_SPIFLASHMEMORY_H_
 
 
+#include <comms/SPI.h>
 #include <stdint.h>
 #include <memory.h>
-#include "comms/SPI.h"
 
 
 /**

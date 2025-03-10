@@ -16,7 +16,7 @@
 #if FLASH_LAYOUT_PAGES
 #error "FLASH page layouts aren't supported yet."
 #endif
-#include "Directory.h"
+#include <devices/flash/internal/Directory.h>
 
 /// <summary>
 /// Facilitates reading and writing from the MCU's FLASH memory.

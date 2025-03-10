@@ -10,9 +10,9 @@
 #ifndef LIB_STM32_TOOLBOX_GRAPHICS_LINE_H_
 #define LIB_STM32_TOOLBOX_GRAPHICS_LINE_H_
 
+#include <graphics/widgets/IWidget.h>
 #include <stdint.h>
 #include <math.h>
-#include "IWidget.h"
 
 
 template <class TColour>

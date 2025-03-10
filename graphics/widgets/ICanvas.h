@@ -10,8 +10,8 @@
 #ifndef LIB_STM32_TOOLBOX_GRAPHICS_ICANVAS_H_
 #define LIB_STM32_TOOLBOX_GRAPHICS_ICANVAS_H_
 
+#include <graphics/widgets/IWidget.h>
 #include <stdint.h>
-#include "IWidget.h"
 #include "toolbox.h"
 
 

@@ -10,12 +10,12 @@
 #ifndef INC_STM32_TOOLBOX_DEVICES_FLASH_DIRECTORY_H_
 #define INC_STM32_TOOLBOX_DEVICES_FLASH_DIRECTORY_H_
 
+#include <devices/flash/internal/DirectoryEntry.h>
+#include <devices/flash/internal/DirectoryHeader.h>
 #include <stdint.h>
 #include <string.h>
 #include <toolbox.h>
 #include "tinycrypt/tiny_md5.h"
-#include "DirectoryEntry.h"
-#include "DirectoryHeader.h"
 
 
 typedef struct Directory

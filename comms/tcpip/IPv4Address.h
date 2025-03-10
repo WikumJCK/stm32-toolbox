@@ -22,8 +22,8 @@
 
 #include <stdint.h>
 #include <memory.h>
-#include "utility/ImmutableString.h"
-#include "utility/PrintLite.h"
+#include <utility/ImmutableString.h>
+#include <utility/PrintLite.h>
 
 // A class to make it easier to handle and pass around IP addresses
 

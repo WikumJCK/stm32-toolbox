@@ -10,10 +10,10 @@
 #ifndef LIB_STM32_TOOLBOX_GRAPHICS_RECTANGLE_H_
 #define LIB_STM32_TOOLBOX_GRAPHICS_RECTANGLE_H_
 
+#include <graphics/widgets/IOutline.h>
+#include <graphics/widgets/IWidget.h>
+#include <graphics/widgets/Line.h>
 #include <stdint.h>
-#include "IWidget.h"
-#include "IOutline.h"
-#include "Line.h"
 #include "math.h"
 
 enum RectangleType {

@@ -36,7 +36,7 @@
 #define udp_h
 
 #include <comms/tcpip/IPv4Address.h>
-#include "Stream.h"
+#include <comms/tcpip/Stream.h>
 #include <stdint.h>
 
 class IUdp: public Stream

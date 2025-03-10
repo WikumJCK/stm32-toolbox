@@ -10,8 +10,9 @@
 #ifndef TESTSCREEN_H
 #define TESTSCREEN_H
 
-#include "diagnostics/fault.h"
-#include "screens/Screen.h"
+#include <diagnostics/Fault.h>
+#include <graphics/screens/Screen.h>
+
 #include "constants.h"
 
 /**

@@ -7,7 +7,7 @@
 #ifndef INC_COMMS_CANBUS_H_
 #define INC_COMMS_CANBUS_H_
 
-#include "utility/FastDelegate.h"
+#include <utility/FastDelegate.h>
 
 class CanBus
 {

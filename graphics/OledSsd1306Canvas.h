@@ -9,9 +9,9 @@
 #ifndef INC_RAD_GRAPHICS_H_
 #define INC_RAD_GRAPHICS_H_
 
-#include "graphics/widgets/IPaintable.h"
-#include "graphics/widgets/ICanvas.h"
-#include "devices/displays/OledSsd1306.h"
+#include <devices/displays/OledSsd1306.h>
+#include <graphics/widgets/ICanvas.h>
+#include <graphics/widgets/IPaintable.h>
 
 
 class OledSsd1306Canvas : public OledSsd1306, public IPaintable<OledColour>, public ICanvas<OledColour>
